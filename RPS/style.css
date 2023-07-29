@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  outline: none;
+  
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+body {
+    background-color: midnightblue;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-family: sans-serif;
+    
+    
+}
+
+.container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.icons {
+  display: flex;
+  padding: 2.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icons p {
+  margin: 2rem;
+  font-size: 6rem;
+}
+
+.options{
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.rock-pic {
+  background-image: url(images/R.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 130px;
+
+}
+
+#icon1 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 230px;
+    margin: 2rem;
+    font-size: 7rem;
+    box-shadow: 0 0 32px black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon2 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 230px;
+    margin: 2rem;
+    font-size: 7rem;
+    box-shadow: 0 0 32px black;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-play{
+    color: #fff;
+    background-color: forestgreen;
+    height: 41px;
+    width: 111px;
+    margin-left: 1rem;
+    cursor: pointer
+}
+
+.btn-play:hover{
+    box-shadow: 0 0 7px #fff;
+}
+
+#player-options{
+    height: 37px;
+    width: 111px;
+    margin-left: 2rem;
+}
+.show-pic {
+  display: block;
+}
+.score{
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.show-winner {
+  position: absolute;
+  display: none;
+  background-color: red;
+  height: 253px;
+  width: 246px;
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 100;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #fff;
+}
+
+.display-winner {
+  display: block;
+  position: absolute;
+
+  background-color: red;
+  height: 253px;
+  width: 246px;
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 100;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #fff;
+}
